@@ -3,8 +3,8 @@
  //2. As per our requirments we take different actions
 session_start();
 
- $un = $_POST['usrname'];
- $pa = $_POST['upass'];
+ $un = $_POST['username'];
+ $pa = $_POST['password'];
 
  
 /*
@@ -18,6 +18,8 @@ echo "Pasword=".$pa;
 echo date('Y-m-d');
 echo "<br>".date('Y-m-d h:i:s a') ;
 
+//echo $un."==".$pa."<br>"; 
+//exit();
 
 if (($un == 'yahoo') && ($pa =='YAHOO'))
   { 
@@ -38,6 +40,6 @@ else
   {
     echo "<br><h4 style='background-color:red'>Wrong Username or Password</h4>";
     $_SESSION["wup"]="Wrong User Name or Password";  
-    header("Location: http://localhost/cse472");
+    header("Location: http://localhost/cse472/login.php");
   } 
 

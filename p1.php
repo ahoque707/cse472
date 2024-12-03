@@ -3,10 +3,19 @@
 <head>    
   <title> FUN </title>
 </head>
+<!-- https://htmlcolorcodes.com/color-chart/ -->
 
-<body bgcolor="#c6cca">
+<body bgcolor="#3f51D5">
+<a href="http://localhost/cse472/p2.php">Page 2</a> || 
+<a href="http://localhost/cse472/p3.php">Page 3</a> || 
+<a href="http://localhost/cse472/p4.php">Page 4</a> ||
+<a href="http://localhost/cse472/p5.php">Page 5</a> ||
+<a href="http://localhost/cse472/p6.php">Page 6</a> ||
+<br>
 
-       
+<h1>Yahoooooooooooooooooo</h1>  
+<br>
+
 <form action="p2.php" method="post">
 <table border='4'>
 <tr>
